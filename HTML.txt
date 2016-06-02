@@ -1,0 +1,35 @@
+Most HTML elements have an "Opening tag" and a "Closing tag".
+
+The only difference between opening tag and closing tag is the closing tag starts with '/'.
+Example <h1> -> opening tag </h1> -> closing tag.
+
+h1, h2, h3, h4, h5, h6 are heading tags (h1 being the top most heading and h6 being the innermost. The size of heading decreases as one moves from h1 tag to h6 tag.)
+
+<p> </p> is used for putting normal sized text on the website. It is called paragraph tag.
+
+To comment a HTML code <!-- -->   could be used .
+
+
+
+Change color of the Text:
+
+style="color:blue" -> this attribute when added to any test element will change the text color to blue. These are also called inline style.
+
+These style can also be added to the elements using CSS (Cascading style Sheets).
+	These styles/CSS can be on page and off page. If it is on page then the CSS needs to be placed inside <style> tag, to take effect.
+
+In a page there could be multiple style tags but during compilation they are considered as one.
+If there are multiple entries for the same tag the last one which exists in the style will take effect. The preference level of style can be noted as
+	inline style > last style > 1st style.
+
+Classes are another way of adding the styles. The class needs to start with . and follows the same structure as the element tag.
+
+The same class can be used by multiple tags to apply the same style.
+
+Multiple styles could be placed in a single class as well as multiple class could be applied to an element.
+
+To control size of an element text "font-size" is used.
+To control font "font-family" could be used.
+using "<link href="..." rel="stylesheet" type="text/css">" we can add a remote css propety to the page and use in the elements as per need.
+Elements can be provided with options of a style in case primary is not avaiable. For ex. if you are using google font and google is not available in some country and then the alternate font will be used.
+p { font-family: Lobster, Monospace;}
